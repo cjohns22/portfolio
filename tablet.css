@@ -1,0 +1,227 @@
+/**
+ * Tablet Stylesheet
+**
+*/
+
+@media screen and (min-width: 981px) and (max-width: 992px) {
+	.logo{
+		margin-left:20px;
+	}
+	#get-in-touch{
+		font-size:75px;
+		top:320px;
+	}
+	.sn-wrap li{
+		background:none;
+	}
+	.sn-wrap li a i{
+		color:#e6e6e6;
+	}
+	#general-questions{
+		display: none;
+	}
+	.post{
+		height:240px;
+	}
+	#gallery-image{
+		height:975px;
+		margin-top: 10px;
+	}
+	#left{
+		height:100px;
+		width:100%;
+	}
+	#menu-nav-menu-left li{
+		width:100px;
+		display: inline;
+		padding-left: 20px;
+	}
+	.menu-nav-menu-left-container{
+		width:0px;
+	}
+	#navigation-wrap{
+		display: inline-block !important;	
+		position:relative;
+		left:52%;
+		position: inherit;
+		margin: inherit;
+		width: auto;
+		top: 40px;
+	}
+	#menu-nav-menu-left{
+		width:450px;
+		border: none;
+		text-align:initial;
+	}
+	.logo{
+		width:150px;
+		margin-top:10px;
+		display: inline-block;
+		font-size:52px;
+	}
+	#sticky{
+		width: 100%;
+		text-align: initial;
+		height:100px;
+	}
+	.wpb-slider-caption{
+		height:500px;
+		left:0px;
+		top:250px;
+	}
+	.wpb-slider-caption h3{
+		font-size:72px;
+	}
+	.wpb-slider-caption p{
+		font-size: 18px;
+	}
+	.carousel-indicators{
+		width:100%;
+		text-align:center;
+		left:0px !important;
+		margin-left:0px;
+		right:0px;
+	}
+	.contact-me{
+		margin-left:10%;
+		text-align:center;
+		width:80%;
+		top:15px;
+		height:auto;
+	}
+	.contact-wrap{
+		margin-left: 8%;
+	}
+	.toggle-btn{
+		background-color:#673E3A;
+	}
+	.wrapper{
+		margin-top:110px;
+		margin-left:0px;
+		width:97%;
+		overflow-y:visible;
+		height:auto;
+		background-color: none;
+		box-shadow: none;
+		position: inherit;
+	}
+	#experience-page .wrapper{
+		background-color:#607f57;
+	}
+	.int-page .wrapper{
+		background-color: #7f4d48;
+	}
+	.pagewrap{
+		height:auto;
+	}
+	.skill-page{
+		height:1600px;
+	}
+	.inner-foot{
+		width:100%;
+	}
+	.skill-page .wrapper{
+		background-color:#56777f;
+	}
+	.current-menu-item{
+		border-bottom: 2px solid grey;
+	}
+	#navigation-wrap #menu-nav-menu-left li{
+		padding: 12px 0;
+		margin-left: 20px;
+	}
+	#navigation-wrap #menu-nav-menu-left li a{
+		font-size: 14px;
+	}
+	#experience-page, #right, #int-page,#skill-page {
+		min-height:985px;
+		height: auto;
+		overflow: auto;
+	}
+	input[name='firstname']{
+		left:0px;
+		margin:0px;
+	}
+	input[name='lastname']{
+		left:-20px;
+	}
+	#email-wrap{
+		margin-left: 60px;
+	}
+	#timeline{
+		margin-left:45px;
+		padding-right: 0px;
+	}
+	.contact-ideas{
+		margin-top:50px;
+	}
+	input[type='text']{
+		margin-top: 0px;
+	}
+	.connect{
+		color:#E0E0E0;
+	}
+	.connect:hover{
+		color:#E0E0E0;	
+	}
+	.sn-wrap li{
+		text-align:center;
+		background-color:#ccc;
+		border-radius:50%;
+		opacity:.8;
+		display: inline;
+		height:150px !important;
+		width:150px !important; 
+		z-index: 30;
+	} 
+	.sn-wrap li a i{
+		color:#4b4b4b;
+	}
+	#bottom{
+		padding-left:0px;
+		padding-top:25px;
+		padding-bottom: 0px;
+		padding-right:30px;
+	}
+	.contact-wrap{
+		height:1150px !important;
+	}
+	#front-resume{
+		padding-left: 45px;
+	}
+
+
+	@media screen and (max-width: 782px) {
+		#navigation-wrap{
+			top:90px;
+		}
+		#get-in-touch{
+			top:365px;
+		}
+	}
+
+
+	/*-------------------LANDSCAPE----------------------------------*/
+	@media screen and (orientation:landscape){
+		#experience-page, #right, #int-page,#skill-page {
+			min-height:645px;
+		}
+		#gallery-image{
+			height:975px;
+			margin-top: 10px;
+		}
+		#navigation-wrap #menu-nav-menu-left li a{
+			font-size: 12px;
+		}
+		#left{
+			height:70px;
+		}
+		.logo{
+			margin-top:5px;
+			font-size:42px;
+		}
+		#menu-nav-menu-left{
+			margin-top:-10px;
+		}
+	}
+}

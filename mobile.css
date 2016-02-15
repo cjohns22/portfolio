@@ -162,14 +162,12 @@
 	}
 	.sn-wrap li{
 		text-align:center;
-		background-color:#ccc;
-		border-radius:50%;
 		opacity:.8;
 		display: inline;
 		z-index: 30;
 	} 
 	.sn-wrap li a i{
-		color:#4b4b4b;
+		color:#e6e6e6;
 	}
 	#mobile-navigation{
 		background-color: #4e4e4e;

@@ -166,12 +166,8 @@
 	}
 	.sn-wrap li{
 		text-align:center;
-		background-color:#ccc;
-		border-radius:50%;
 		opacity:.8;
 		display: inline;
-		height:150px !important;
-		width:150px !important; 
 		z-index: 30;
 	} 
 	.sn-wrap li a i{

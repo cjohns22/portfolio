@@ -57,9 +57,9 @@
 	<div id="bottom" class='row'>
 		<div class='row'>
 			<ul class='sn-wrap col-md-6 col-xs-12 col-sm-10 col-sm-offset-1 col-md-offset-4'>
-				<li class='col-xs-3 col-md-2 col-sm-2 col-md-offset-1 col-sm-offset-2 col-xs-offset-1' title='Email me about more general information'><a class='connect' href="mailto:cjohns22@syr.edu?Subject="> <i class="fa fa-envelope-square"></i></a></li>
-				<li class='col-xs-3 col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1' title='Find me on Facebook'><a class='connect' href='http://facebook.com' target='_blank'><i class="fa fa-facebook"></i></a></li>
-				<li class='col-xs-3 col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1' title='Connect with me on Linkedin'><a class='connect' href='https://www.linkedin.com/pub/chadwick-johnson/77/363/a05' target='_blank'><i class="fa fa-linkedin"></i></a></li>
+				<li class='col-xs-3 col-md-2 col-sm-2 col-md-offset-1 col-sm-offset-2 col-xs-offset-1' title='Email me about more general information'><a class='connect' href="mailto:cjohns22@syr.edu?Subject="> <i class="fa fa-envelope-square fa-5x"></i></a></li>
+				<li class='col-xs-3 col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1' title='Find me on Facebook'><a class='connect' href='http://facebook.com' target='_blank'><i class="fa fa-facebook fa-5x"></i></a></li>
+				<li class='col-xs-3 col-md-2 col-sm-2 col-md-offset-2 col-sm-offset-1 col-xs-offset-1' title='Connect with me on Linkedin'><a class='connect' href='https://www.linkedin.com/pub/chadwick-johnson/77/363/a05' target='_blank'><i class="fa fa-linkedin fa-5x"></i></a></li>
 			</ul>
 		</div>
 	</div>

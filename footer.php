@@ -1,5 +1,5 @@
     <div id='front-resume'>
-        <h3 id="resume" class='sn-wrap col-md-6 col-xs-12 col-sm-10 col-sm-offset-1 col-md-offset-4'>VIEW MY RESUME</h3>
+        <h3 id="resume" class='sn-wrap col-md-6 col-xs-12 col-sm-10 col-sm-offset-1 col-md-offset-4'>MY R&EacuteSUM&Eacute</h3>
         <span id="toggle-arrow" class="active-arrow glyphicon glyphicon-chevron-up col-xs-12 col-sm-12 col-md-10 col-md-offset-2" aria-hidden="true"></span>
     </div>
         
@@ -21,11 +21,9 @@
             
             <ul class='contact-me col-md-10 col-sm-12 col-xs-12'>
                 <li id='name-footer'>CHAD JOHNSON</li>
-                <li>SYRACUSE, NY</li>
                 <li>PHONE: 315-283-4417</li>
                 <li class='web-dev'>WEB DEVELOPMENT</li>
-                <li class='environment'> ENVIRONMENTAL SCIENCE AND ENGINEERING</li>
-                <li>&#169 ALL RIGHTS RESERVED</li>
+                <li class='environment'> ENVIRONMENTAL & WATER RESOURCES ENGINEERING</li>
             </ul>
 
         </div>

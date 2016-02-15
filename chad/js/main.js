@@ -21,7 +21,7 @@ jQuery(function($){
 
 	var both = $('#right, #experience-page');
 
-	/*--------------- Handle window resize -------------------*/
+	/*--------------- Handle window resize --------
 
 	$(window).on('resize load', function(){
 		var socialWidth = $('.sn-wrap li').width();
@@ -49,6 +49,8 @@ jQuery(function($){
 			icons.removeClass('fa-4x fa-3x').addClass('fa-5x');		
 		}
 	});
+
+	-----------*/
 
 	var skillWrapHeight = $('.skill-wrap').height();
 	$('#skill-content-wrap').css('height',skillWrapHeight);

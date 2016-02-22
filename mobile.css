@@ -2,9 +2,9 @@
  * Mobile Stylesheet
  */
 
-@media screen and (min-width: 0px) and (max-width: 980px) {
+@media only screen and (min-width: 0px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
 	html{
-		width: 100%
+		width: 100%;
 	}
 	#show-nav-btn,
 	#hide-nav-btn{
@@ -13,21 +13,46 @@
 	#top{
 		margin-top:-10px;
 	}
-	.toggle-btn{
-		width:30%;
+	.toggle-btn-skills,
+	.toggle-btn-interests{
+		width:40%;
+		height:70px;
+		font-size:2em;
+		padding-top:15px;
 	}
 	button[aria-label="Left Align"]{
 		display: initial;
 		float: right;
-		margin-top:35px;
-		margin-right:35px;
-	}	
+		margin-top:50px;
+		margin-right:50px;
+		height:100px;
+		width: 100px;
+		background-color: #c4c4c4;
+	}
 	.logo{
 		margin-left:20px;
+		width:auto;
+		margin-top:30px;
+		display: inline-block;
+		font-size: 1.4em;
 	}
 	#get-in-touch{
-		font-size:56px;
-		top:480px;
+		top:500px;
+		font-size: 8em;
+		margin: 120px 0 0 0;
+	}
+	form[name="contactform"] label{
+		font-size: 2em;
+		margin-left:60px;
+	}
+	form[name="contactform"] input{
+		height:75px;
+		font-size: 2em;
+	}
+	#submit{
+		height:60px;
+		width: 130px;
+		margin-top: 30px;
 	}
 	.sn-wrap li{
 		background:none;
@@ -40,18 +65,28 @@
 	}
 	.toggle-btn{
 		background-color:#673E3A;
+		width:25%;
 	}
 	.post{
-		height:275px;
-		width:275px;
-		margin-left:25px;
+		height:660px;
+		width:70%;
+		margin-left:15%;
 		margin-top:25px;
 	}
+	.post-cover h3{
+		font-size: 5em;
+		font-weight: bold;
+		text-shadow: 0px 0px 13px #000000;
+	}
+	.post-cover p{
+		font-size: 2.5em;
+		text-shadow: 0px 0px 13px #000000;
+	}
 	#gallery-image{
-		height:700px;
+		width:1000px;
 	}
 	#left{
-		height:100px;
+		height:200px;
 		width:100%;
 	}
 	#navigation-wrap{
@@ -62,16 +97,12 @@
 		border: none;
 		text-align:initial;
 	}
-	.logo{
-		width:150px;
-		margin-top:13px;
-		display: inline-block;
-	}
 	#sticky{
 		width: 100%;
 		text-align: initial;
-		height:100px;
+		height:100%;
 		position:absolute;
+		font-size:5em;
 	}
 	#left, 
 	.logo,
@@ -79,14 +110,12 @@
 		position:relative;
 	}
 	.wpb-slider-caption{
-		height:700px;
 		left:0px;
 		right:100px;
 		top:0px;
-	}
-
-	.wpb-slider-caption p{
-		font-size: 12px;
+		overflow-y:scroll;
+		height:88%;
+		padding:60px;
 	}
 	.carousel-indicators{
 		width:100%;
@@ -94,41 +123,44 @@
 		left:0px !important;
 		margin-left:0px;
 		right:0px;
-		top:515px;
+		bottom:20px;
+		margin-bottom: 0px;
+	}
+	.carousel-indicators li,
+	.carousel-indicators li.active{
+		height:30px;
+		width:30px;
+		margin-left:20px;
+		border:3px solid #fff;
+	}
+	.carousel-indicators li.active{
+		background:#fff;
 	}
 	.contact-me{
 		margin-left:0px;
 		text-align:center;
 	}
 	.contact-me li{
-		font-size: 12px;
+		font-size: 2em;
 	}
 	.contact-wrap{
 		margin-left: 8%;
 		border-width: 30px;
-		height: 1150px !important;
+		height: 1350px !important;
 	}
 	.sn-wrap li{
-		margin-left:8%;
+		margin-left:13%;
 	}
 	.wrapper{
-		margin-top:0px;
+		margin-top:60px;
 		margin-left:0px;
 		margin-bottom:15%;
 		width:95%;
 		height:auto;
-		background-color: #7f4d48;
-		box-shadow: none;
-		position: inherit;
+		max-height:80%;
 	}
 	#experience-page{
 		margin-top: -5px;
-	}
-	#experience-page .wrapper{
-		background-color:#607f57;
-	}
-	.int-page .wrapper{
-		background-color: #7f4d48;
 	}
 	.pagewrap{
 		height:auto;
@@ -137,19 +169,20 @@
 		height:1600px;
 		top:-5px;
 	}
+	.footer-wrap{
+		height: 200px;
+	}
 	.inner-foot{
 		width:100%;
 	}
-	.skill-page .wrapper{
-		background-color:#56777f;
-	}
 	#experience-page, #right, #int-page,#skill-page {
-		min-height:800px;
+		min-height:1200px;
 		height: auto;
 		overflow: auto;
 	}
 	.contact-ideas{
 		margin-top:50px;
+		font-size:2.5em;
 	}
 	input[type='text']{
 		margin-top: 0px;
@@ -171,7 +204,7 @@
 	}
 	#mobile-navigation{
 		background-color: #4e4e4e;
-		margin-top:14px;
+		margin-top:25px;
 		-webkit-box-shadow: 0px 16px 16px 0px rgba(33,33,33,1);
 		-moz-box-shadow: 0px 16px 16px 0px rgba(33,33,33,1);
 		box-shadow: 0px 16px 16px 0px rgba(33,33,33,1);
@@ -179,12 +212,18 @@
 	#mobile-navigation ul{
 		width:100%;
 	}
+	#mobile-navigation ul li a:hover,
+	#mobile-navigation ul li a:focus,
+	#mobile-navigation ul li a:active{
+		text-decoration: none;
+		font-weight:bold;
+	}
 	#mobile-navigation #menu-demo-menu li{
 		background-color: #4e4e4e;
 		display: block;
 		width: auto;
-		padding: 16px 0px 10px 20px;
-		height: 50px;
+		padding-left:40px;
+		height: 120px;
 		margin-left: 0;
 		border-top: 1px solid #414141;
 	}
@@ -197,7 +236,9 @@
 	#mobile-navigation #menu-demo-menu li a{
 		color: #e0e0e0;
 		font-family: 'Montserrat';
-		font-size: 14px;
+		font-size: .5em;
+		padding-right: 70%;
+		height:40px;
 	}
 	#menu-demo-menu {
 		padding-left:0px;
@@ -208,13 +249,16 @@
 		border: none;
 	}
 	.wpb-slider-caption h3{
-		font-size: 42px;
+		font-size: 7em;
 	}
-	#gallery-image{
-		height:550px;
+	.wpb-slider-caption p{
+		font-size: 1em;
 	}
 	#wpb-slider-wrapper{
 		margin-top: -10px;
+	}
+	#resume{
+		font-size:3em;
 	}
 	#bottom{
 		height:400px;
@@ -223,7 +267,49 @@
 		padding-bottom: 0px;
 		padding-right:30px;
 	}
-
+	@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+		#left{
+			height: 101px;
+		}
+		.logo{
+			margin-top:0;
+			font-size: 1em;
+		}
+		#sticky button{
+			margin:0;
+		}
+		#mobile-navigation{
+			margin-top:-2px;
+		}
+		#mobile-navigation #menu-demo-menu li{
+			height: 75px;
+		}
+		#mobile-navigation #menu-demo-menu li a{
+			font-size: 0.4em;
+			position: absolute;
+			margin-top: 20px;
+		}
+		.toggle-btn-skills, .toggle-btn-interests{
+			width: 30%;
+			font-size: 1.4em;
+			height: 50px;
+			padding-top:10px;
+		}
+		#pagewrap .wrapper{
+			margin-top: 20px;
+		}
+		.post{
+			width: 45%;
+			margin-left:25px;
+			height: 450px;
+		}
+		.post-cover h3{
+			font-size: 3em;
+		}
+		.post-cover p{
+			font-size: 1.5em;
+		}
+	}
 	@media screen and (max-width: 520px) {
 		.sn-wrap li{
 			background-color: #4b4b4b;
@@ -243,7 +329,7 @@
 			margin-top:90px;
 		}
 		.toggle-btn-group, .toggle-btn-interests{
-			width:50%;
+			width:40%;
 		}
 	}
 	@media screen and (max-width: 435px) {
@@ -280,7 +366,7 @@
 			margin-top:10px;
 		}
 		#get-in-touch{
-			font-size:36px;
+			font-size:8em;
 			top:378px;
 		}
 		.contact-wrap{

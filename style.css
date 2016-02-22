@@ -38,15 +38,8 @@ body{
 #right,#experience-page{
 	min-height: 1300px;
 	width:100%;
-	background: url(IMAGE2.jpg) no-repeat center center;
-	background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8) ), url(IMAGE2.jpg) no-repeat center;
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ), url(IMAGE2.jpg) no-repeat center;
 
-}
-.exp-page{
-	background-color: #607f57;
-}
-.int-page{
-	background-color: #7f4d48
 }
 /*SLIDER*/
 .wpb-slider-caption{
@@ -240,7 +233,7 @@ body{
     margin:5px 1px;
     padding:5px 14px; 
     color:#e6e6e6; 
-    background-color:#724541; 
+    background-color:#4d4d4d; 
     border-radius:10px; 
     display:inline-block; 
     border:solid 1px #e6e6e6; 
@@ -253,11 +246,11 @@ body{
     margin:5px 1px;
     padding:5px 14px; 
     color:#e6e6e6; 
-    background-color:#48666a; 
+    background-color:#4d4d4d; 
     border-radius:10px; 
     display:inline-block; 
     border:solid 1px #e6e6e6; 
-    width:20%;
+    width:22%;
     font-family: 'Montserrat';
     cursor: pointer;
 }
@@ -293,16 +286,16 @@ body{
    	padding-right:10px;
 }
 .low-shadow{
-	box-shadow: inset 1px -30px 43px -12px #1B2628;
-	-webkit-box-shadow: inset 1px -30px 43px -12px #1B2628;
-	-moz-box-shadow: inset 1px -30px 43px -12px #1B2628;
-	-o-box-shadow: inset 1px -30px 43px -12px #1B2628;
+	box-shadow: inset 1px -30px 43px -12px black;
+	-webkit-box-shadow: inset 1px -30px 43px -12px black;
+	-moz-box-shadow: inset 1px -30px 43px -12px black;
+	-o-box-shadow: inset 1px -30px 43px -12px black;
 }
 .high-shadow{
-	box-shadow: inset 1px 41px 43px -12px #1B2628;
-	-webkit-box-shadow: inset 1px 41px 43px -12px #1B2628;
-	-moz-box-shadow: inset 1px 41px 43px -12px #1B2628;
-	-o-box-shadow: inset 1px 41px 43px -12px #1B2628;
+	box-shadow: inset 1px 41px 43px -12px black;
+	-webkit-box-shadow: inset 1px 41px 43px -12px black;
+	-moz-box-shadow: inset 1px 41px 43px -12px black;
+	-o-box-shadow: inset 1px 41px 43px -12px black;
 }
 .arrow-left {
 	width: 0; 
@@ -396,7 +389,6 @@ body{
 }
 input[type="text"]{
 	height:50px;
-	margin-top:20px;
 	margin-bottom:20px;
 }
 #submit{
@@ -510,7 +502,6 @@ form{
 }
 #resume-wrap{
 	background-color:#333;
-	display: none;
 	background-image:url('');
 }
 .glyphicon-chevron-up, .glyphicon-chevron-down{
@@ -592,6 +583,100 @@ button[aria-label="Left Align"]{
 }
 #newman{
 	float: center;
+}
+/*Resume*/
+#resume-name{
+	text-align: center;
+}
+#resume-wrap{
+	background-color: #e6e6e6;
+	padding:20px 10px;
+	font-family:"Montserrat";
+	font-size:1em;
+}
+.title{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#header-content div ul{
+	list-style: none;
+	padding-left: 0px
+}
+#header-content{
+	border-bottom: 1px solid #333;
+	padding-bottom: 20px;
+}
+#resume-header-center ul{
+	padding-top: 20px;
+}
+#resume-name{
+	font-size:3em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#resume-header-right{
+	text-align: right;
+	padding-right: 5%;
+}
+#resume-header-center{
+	text-align: center;
+}
+#resume-header-left{
+	text-align: left;
+	padding-left: 5%;
+}
+#education-title,
+#experience-title,
+#skills-title{
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+#education, #experience,#resume-skills{
+	margin-top:20px;
+	padding:0 5%;
+}
+#education ul.sub-title{
+	list-style: none;
+	margin-left:10px;
+}
+#education ul{
+	padding-left:0px;
+}
+#education ul li{
+	margin-left:30px;
+}
+.sub-title,
+#coursework-sub-title{
+	font-weight: bold;
+}
+#coursework-sub-title{
+	margin-left: 0px;
+}
+#education-title{
+	margin-bottom: 10px;
+}
+#download-resume{
+	font-family: 'Montserrat';
+	font-size: 1.7em;
+	text-transform: uppercase;
+	opacity: .75;
+	color: #e6e6e6;
+}
+#download-resume-wrap{
+	padding-top: 25px;
+}
+#download-resume:hover{
+	opacity: 1;
+	text-decoration: none;
+}
+#download-resume-wrap{
+	text-align: center;
+}
+#resume-wrap-container{
+	display: none;
 }
 
 @media screen and (max-width: 2225px) {

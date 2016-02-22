@@ -69,7 +69,7 @@ jQuery(function($){
 
 	$('.post').click(function(e){
 		if($(window).width() > 1800){
-			$('.post').css('opacity', '0.3');
+			$('.post').css('opacity', '0.5');
 		}
 		$(this).css('opacity', '1');
 		$('.content-wrap').empty();
@@ -81,7 +81,7 @@ jQuery(function($){
 		var itemsNotClicked = $(this).siblings('visible');
 
 		if(window.width > 1800){
-			itemsNotClicked.css('opacity', '.4')
+			itemsNotClicked.css('opacity', '.5')
 		}
 	});
 
@@ -111,20 +111,25 @@ jQuery(function($){
 	$('.btn-default').click(function(){
 		if($('#mobile-navigation').hasClass('dropped')){
 			$('#mobile-navigation').fadeOut().removeClass('dropped');
-			$('#sticky button span').removeClass().addClass('glyphicon glyphicon-align-right');
+			$('#sticky button span').removeClass().addClass('glyphicon glyphicon-align-right fa-3x');
 		}else{
 			$('#mobile-navigation').addClass('dropped').slideDown();
-			$('#sticky button span').removeClass().addClass('glyphicon glyphicon-remove');
+			$('#sticky button span').removeClass().addClass('glyphicon glyphicon-remove fa-3x');
+			$('#mobile-navigation ul li a').css('display', 'none');
+			setTimeout(function(){
+				$('#mobile-navigation ul li a').fadeIn('slow');
+			}, 100);
+
 		}
 	});
 
 	/*----------------Toggle resume dropdown--------------------------*/
 	$('#resume').click(function(){
 		if($('#toggle-arrow').hasClass('active-arrow')){
-			$('#resume-wrap').slideDown();
+			$('#resume-wrap-container').slideDown();
 			$('#toggle-arrow').removeClass('glyphicon glyphicon-chevron-up active-arrow').addClass('glyphicon glyphicon-chevron-down');
 		}else{
-			$('#resume-wrap').slideUp();
+			$('#resume-wrap-container').slideUp();
 			$('#toggle-arrow').removeClass('glyphicon glyphicon-chevron-down').addClass('glyphicon glyphicon-chevron-up active-arrow');
 
 		}

@@ -16,7 +16,7 @@
 
 					<div class='post-content'>
 						<h1 class='col-xs-12 col-md-12 col-sm-12 content-title'><?php the_title(); ?> </h1>
-						<div class='post-content col-xs-12 col-md-12 col-sm-12 content'><?php the_content();?></div>
+						<div class='post-content col-xs-10 col-md-10 col-sm-10 col-md-offset-1 col-xs-offset-1 col-sm-offset-1 content'><?php the_content();?></div>
 					</div>
 				</div>
 			<?php endwhile;?>

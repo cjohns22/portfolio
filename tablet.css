@@ -3,13 +3,34 @@
 **
 */
 
-@media screen and (min-width: 981px) and (max-width: 992px) {
+/* iPad Mini Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* iPad Mini Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+	.carousel-inner .item{
+		height:740px;
+	}
+	.wpb-slider-caption{
+		
+	}
+}
+
+/*---iPad 3&4 Portrait ---*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
 	.logo{
 		margin-left:20px;
+		margin-top: 15px;
+	}
+	.contact-wrap label{
+		text-align: left;
 	}
 	#get-in-touch{
 		font-size:75px;
-		top:320px;
+		margin-top: 190px;
+		margin-left:0;
 	}
 	.sn-wrap li{
 		background:none;
@@ -36,28 +57,35 @@
 		display: inline;
 		padding-left: 20px;
 	}
-	.menu-nav-menu-left-container{
-		width:0px;
-	}
 	#navigation-wrap{
 		display: inline-block !important;	
-		position:relative;
-		left:52%;
-		position: inherit;
+		position:absolute;
 		margin: inherit;
 		width: auto;
-		top: 40px;
+		top: 5px;
+		right:40px;
+	}
+	#navigation-wrap #menu-nav-menu-left li a{
+		font-size:1.3em;
 	}
 	#menu-nav-menu-left{
-		width:450px;
 		border: none;
 		text-align:initial;
+		margin-top:15px;
 	}
 	.logo{
 		width:150px;
 		margin-top:10px;
 		display: inline-block;
 		font-size:52px;
+	}
+	#front-resume{
+		text-align:center;
+	}
+	#resume,
+	#toggle-arrow{
+		width:100%;
+		margin-left:0;
 	}
 	#sticky{
 		width: 100%;
@@ -67,7 +95,7 @@
 	.wpb-slider-caption{
 		height:500px;
 		left:0px;
-		top:250px;
+		top:100px;
 	}
 	.wpb-slider-caption h3{
 		font-size:72px;
@@ -89,6 +117,9 @@
 		top:15px;
 		height:auto;
 	}
+	#center{
+		text-align: center;
+	}
 	.contact-wrap{
 		margin-left: 8%;
 	}
@@ -96,20 +127,16 @@
 		background-color:#673E3A;
 	}
 	.wrapper{
-		margin-top:110px;
+		margin-top:120px;
 		margin-left:0px;
 		width:97%;
 		overflow-y:visible;
 		height:auto;
-		background-color: none;
 		box-shadow: none;
 		position: inherit;
 	}
-	#experience-page .wrapper{
-		background-color:#607f57;
-	}
-	.int-page .wrapper{
-		background-color: #7f4d48;
+	#hide-nav-btn{
+		display: none;
 	}
 	.pagewrap{
 		height:auto;
@@ -120,18 +147,12 @@
 	.inner-foot{
 		width:100%;
 	}
-	.skill-page .wrapper{
-		background-color:#56777f;
-	}
 	.current-menu-item{
 		border-bottom: 2px solid grey;
 	}
 	#navigation-wrap #menu-nav-menu-left li{
-		padding: 12px 0;
-		margin-left: 20px;
-	}
-	#navigation-wrap #menu-nav-menu-left li a{
-		font-size: 14px;
+		padding: 12px 10px;
+		margin: auto 10px;
 	}
 	#experience-page, #right, #int-page,#skill-page {
 		min-height:985px;
@@ -171,7 +192,7 @@
 		z-index: 30;
 	} 
 	.sn-wrap li a i{
-		color:#4b4b4b;
+		color:#e6e6e6;
 	}
 	#bottom{
 		padding-left:0px;
@@ -198,7 +219,7 @@
 
 
 	/*-------------------LANDSCAPE----------------------------------*/
-	@media screen and (orientation:landscape){
+	@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
 		#experience-page, #right, #int-page,#skill-page {
 			min-height:645px;
 		}
@@ -207,7 +228,7 @@
 			margin-top: 10px;
 		}
 		#navigation-wrap #menu-nav-menu-left li a{
-			font-size: 12px;
+			font-size: 1.1em;
 		}
 		#left{
 			height:70px;
@@ -215,9 +236,18 @@
 		.logo{
 			margin-top:5px;
 			font-size:42px;
+			margin-left: 40px;
 		}
 		#menu-nav-menu-left{
 			margin-top:-10px;
+		}
+		#navigation-wrap{
+			display: inline-block !important;	
+			position:absolute;
+			margin: inherit;
+			width: auto;
+			top: 15px;
+			right:60px;
 		}
 	}
 }

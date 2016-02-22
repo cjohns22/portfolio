@@ -24,7 +24,7 @@
 					<div id='name'><?php is_front_page() ? bloginfo('name') : wp_title(''); ?></div>
 				</div>
 				<button type="button" class="btn btn-default" aria-label="Left Align">
-					<span class="glyphicon glyphicon-align-right" aria-hidden="true"></span>
+					<span class="glyphicon glyphicon-align-right fa-3x" aria-hidden="true"></span>
 				</button>
 				<div id='mobile-navigation'>
 					<?php wp_nav_menu( array( 'theme_location' => 'mobile-menu' ) ); ?>
@@ -35,7 +35,6 @@
 				<div id="hide-nav-btn">
 					<i class="fa fa-angle-left fa-5x" title="Hide Navigation Menu" alt="Hide Navigation Menu"></i>
 				</div>
-				
 			</div>
 		</div>
 		<div id="show-nav-btn" class="out-of-sight">
